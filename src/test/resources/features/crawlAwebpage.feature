@@ -63,7 +63,7 @@ Feature: Scan & Validate a given website for no console errors, response code & 
     	|browser|								url																 |resp_code|													page_title																								  |
     	|chrome |https://www.kraken.com														 |200      |Bitcoin & Cryptocurrency Exchange \| Bitcoin Trading Platform \| Kraken								|
     	|chrome |https://www.kraken.com/prices										 |200      |Cryptocurrency Prices \| Live Crypto Quotes \| Kraken																  |
-			|chrome |https://www.kraken.com/doesntexist								 |404      |€29,775.10 - Kraken - 404 - Page Not Found																					  |
+			|chrome |https://www.kraken.com/doesntexist								 |404      |â‚¬29,775.10 - Kraken - 404 - Page Not Found																					  |
 			|chrome |https://www.kraken.com/en-us/features/security/pgp|200      |Kraken \| Buy, Sell and Margin Trade Bitcoin (BTC) and Ethereum (ETH) - PGP Public Key|
 		
 	@Regression
@@ -84,5 +84,5 @@ Feature: Scan & Validate a given website for no console errors, response code & 
     Examples:
     	|browser|								url																 |													page_title																								  |
     	|chrome |https://www.kraken.com														 |Bitcoin & Cryptocurrency Exchange \| Bitcoin Trading Platform \| Kraken								|
-    	#|chrome |https://linka.permanenttsb.ie/vpn/index.html														 |Citrix Access Gateway								|
+    	
  
