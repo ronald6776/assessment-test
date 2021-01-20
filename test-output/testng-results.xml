@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="243" started-at="2021-01-20T13:17:32 GMT" finished-at="2021-01-20T13:17:33 GMT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="243" started-at="2021-01-20T13:17:32 GMT" finished-at="2021-01-20T13:17:33 GMT">
+      <class name="unitTestScripts.UtilsTest">
+        <test-method status="PASS" signature="jsonStringTraverseTest()[pri:0, instance:unitTestScripts.UtilsTest@dd9e1f81]" name="jsonStringTraverseTest" duration-ms="196" started-at="2021-01-20T13:17:32 GMT" finished-at="2021-01-20T13:17:33 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- jsonStringTraverseTest -->
+      </class> <!-- unitTestScripts.UtilsTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

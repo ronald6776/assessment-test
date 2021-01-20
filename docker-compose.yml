@@ -1,0 +1,44 @@
+version: '2'
+services:
+
+  chromestandalone:
+    container_name: chrome_standalone
+    image: selenium/standalone-chrome
+    networks:
+      demo_test_nw: {}
+    ports:
+      - "4444:4444"
+
+  firefoxstandalone:
+    container_name: firefox_standalone
+    image: selenium/standalone-firefox
+    networks:
+      demo_test_nw: {}
+    ports:
+      - "4445:4444"
+
+  app:
+    container_name: demo_app
+    build: .
+    network_mode: "host"
+    depends_on:
+      - chromestandalone
+      - firefoxstandalone
+    ports:
+      - 80
+
+  demotests:
+    container_name: demo_selenium_tests
+    command: mvn -f /home/mydockertest/pom.xml test
+    network_mode: "host"
+    depends_on:
+      - chromestandalone
+      - firefoxstandalone
+      - app
+    build: .
+    volumes:
+      - ./target/cucumberHtmlReports:/home/mydockertest/target/cucumberHtmlReports
+
+networks:
+  demo_test_nw:
+    driver: bridge

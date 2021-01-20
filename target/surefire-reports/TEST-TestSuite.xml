@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="8" failures="2" name="TestSuite" time="281.568" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.7+10-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-11\bin"/>
+    <property name="jdk.vendor.version" value="Zulu11.39+16-SA"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\MyWorkspace\HandsOn\assessment-test"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\MyWorkspace\HandsOn\assessment-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="11.0.7+10-LTS"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ronald_p\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\ApacheMaven_3.5.2\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="env.USER" value="local"/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Program Files\AdoptOpenJDK\jdk-8.0.202.08\bin;C:\Program Files\AdoptOpenJDK\jre-8.0.202.08\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\WebEx\Productivity Tools;C:\Program Files (x86)\Webex\Webex\Applications;C:\Program Files (x86)\Brackets\command;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Zulu\zulu-11\bin\;C:\Program Files\Zulu\zulu-11-jre\bin\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\ronald_p\AppData\Local\Microsoft\WindowsApps;;D:\ApacheMaven_3.5.2\bin;."/>
+    <property name="maven.conf" value="D:\ApacheMaven_3.5.2\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\ApacheMaven_3.5.2\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\ronald_p"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Ronald_P"/>
+    <property name="java.class.path" value="D:\ApacheMaven_3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test -Denv.USER=local"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-11"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.7"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="D:\ApacheMaven_3.5.2\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-04-14"/>
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Zulu11.39+16-SA"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="30.192"/>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="44.941">
+    <failure message="Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CHNMCT279631L&apos;, ip: &apos;10.110.70.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10944, moz:profile: C:\Users\ronald_p\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 927890f9-4911-4054-b04c-1bdad3ed9045" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CHNMCT279631L&apos;, ip: &apos;10.110.70.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10944, moz:profile: C:\Users\ronald_p\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 927890f9-4911-4054-b04c-1bdad3ed9045
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at stepDefinitions.StepDefs.the_current_browser_should_be_closed(StepDefs.java:190)
+	at ✽.the current browser should be closed(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:39)
+</failure>
+    <system-out>
+@SanityTest
+Scenario Outline: Sanity check for the listed webpages                                 # src/test/resources/features/crawlAwebpage.feature:44
+20 Jan 2021 17:58:10,616 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 17:58:34,404 INFO  Brower opened successfully on local. Brower Name:firefox
+  Given I want to open &quot;firefox&quot; browser                                               # stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)
+20 Jan 2021 17:58:34,404 INFO  The browser opened successfully
+  And I want to scan the website                                                       # stepDefinitions.StepDefs.i_want_to_scan_the_website()
+  When I enter the url-&quot;https://www.kraken.com/prices&quot;                                 # stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)
+  When I maximize the browser                                                          # stepDefinitions.StepDefs.i_maximize_the_browser()
+20 Jan 2021 17:58:42,483 INFO  The browser maximized succesfully
+  Then the &quot;firefox&quot; browser should be maximized                                       # stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)
+20 Jan 2021 17:58:42,491 INFO  Page title verified succesfully
+  And I verify the page title as &quot;Cryptocurrency Prices | Live Crypto Quotes | Kraken&quot; # stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)
+  And I wait for 5 seconds to load the page                                            # stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)
+  When I close the &quot;firefox&quot; browser                                                   # stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)
+20 Jan 2021 17:58:55,426 INFO  Browser closed succesfully
+  Then the current browser should be closed                                            # stepDefinitions.StepDefs.the_current_browser_should_be_closed()
+      org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CHNMCT279631L&apos;, ip: &apos;10.110.70.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10944, moz:profile: C:\Users\ronald_p\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 927890f9-4911-4054-b04c-1bdad3ed9045
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at stepDefinitions.StepDefs.the_current_browser_should_be_closed(StepDefs.java:190)
+	at âœ½.the current browser should be closed(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:39)
+
+20 Jan 2021 17:58:55,510 INFO  Browser closed successfully in after method
+20 Jan 2021 17:58:55,510 INFO  -----------------End of Scenario-----------------
+</system-out>
+    <system-err>1611165490870	geckodriver	INFO	Listening on 127.0.0.1:28719
+1611165491241	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;--marionette&quot; &quot;-foreground&quot; &quot;-no-remote&quot; &quot;-profile&quot; &quot;C:\\Users\\ronald_p\\AppData\\Local\\Temp\\rust_mozprofileoyXnWF&quot;
+Can&apos;t find symbol &apos;eglSwapBuffersWithDamageEXT&apos;.
+Can&apos;t find symbol &apos;eglSetDamageRegionKHR&apos;.
+console.error: Region.jsm: &quot;Error fetching region&quot; (new Error(&quot;TIMEOUT&quot;, &quot;resource://gre/modules/Region.jsm&quot;, 726))
+console.error: Region.jsm: &quot;Failed to fetch region&quot; (new Error(&quot;TIMEOUT&quot;, &quot;resource://gre/modules/Region.jsm&quot;, 376))
+console.error: &quot;Could not write session state file &quot; (new Error(&quot;_initWorker called too early! Please read the session file from disk first.&quot;, &quot;resource:///modules/sessionstore/SessionFile.jsm&quot;, 375)) &quot;_initWorker/&lt;@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:368:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:410:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:448:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:360:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:294:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:344:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:191:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n&quot;
+console.warn: SearchSettings: &quot;get: No settings file exists, new profile?&quot; (new Error(&quot;&quot;, &quot;(unknown module)&quot;))
+1611165513922	Marionette	INFO	Listening on port 64976
+1611165514371	Marionette	WARN	TLS certificate errors will be ignored for this session
+Jan 20, 2021 5:58:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1611165527575	Marionette	INFO	Stopped listening on port 64976
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 968: TypeError: this._storage is null
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+console.log: &quot;RemoteSettingsWorker error: Error: Can&apos;t import when we&apos;ve started shutting down.&quot;
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+</system-err>
+  </testcase>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="26.575"/>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="20.466"/>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="22.758"/>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="33.57">
+    <failure message="Verify console errors on page loads. expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: Verify console errors on page loads. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at stepDefinitions.StepDefs.i_validate_for_no_console_errors(StepDefs.java:171)
+	at ✽.I validate for no console errors for the url-&quot;https://www.kraken.com/doesntexist&quot;(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:58)
+</failure>
+    <system-out>
+@SmokeTest
+Scenario Outline: Validation for no console errors on page loads                                 # src/test/resources/features/crawlAwebpage.feature:66
+20 Jan 2021 18:00:05,340 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 18:00:09,163 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 18:00:09,163 INFO  Brower opened successfully on local. Brower Name:chrome
+  Given I want to open &quot;chrome&quot; browser                                                          # stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)
+20 Jan 2021 18:00:09,163 INFO  The browser opened successfully
+  And I want to scan the website                                                                 # stepDefinitions.StepDefs.i_want_to_scan_the_website()
+  When I enter the url-&quot;https://www.kraken.com/doesntexist&quot;                                      # stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)
+20 Jan 2021 18:00:23,612 INFO  User is succesfully redirected to the webpage with the url: https://www.kraken.com/404
+  Then I should be redirected to the corressponding webpage                                      # stepDefinitions.StepDefs.i_should_be_on_redirected_to_the_corressponding_webpage()
+20 Jan 2021 18:00:23,751 INFO  HTTP Status Code of url-https://www.kraken.com/doesntexist is 503
+20 Jan 2021 18:00:23,751 INFO  Failed to validate the page response code as 404
+
+    Failed to validate the page response code as 404
+
+  And I validate the response code from the page url &quot;https://www.kraken.com/doesntexist&quot; is 404 # stepDefinitions.StepDefs.i_validate_the_response_code_from_the_page(java.lang.String,java.lang.Integer)
+  When I maximize the browser                                                                    # stepDefinitions.StepDefs.i_maximize_the_browser()
+20 Jan 2021 18:00:25,943 INFO  The browser maximized succesfully
+  Then the &quot;chrome&quot; browser should be maximized                                                  # stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)
+  And I verify the page title as &quot;ï¿½29,775.10 - Kraken - 404 - Page Not Found&quot;                    # stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)
+  And I wait for 10 seconds to load the page                                                     # stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)
+20 Jan 2021 18:00:36,002 INFO  Total console log entries found: 1
+20 Jan 2021 18:00:36,002 INFO  Log Type: SEVERE Log Message: https://www.kraken.com/404 - Failed to load resource: the server responded with a status of 404 ()
+20 Jan 2021 18:00:36,002 INFO  Total Errors found in console: 1
+20 Jan 2021 18:00:36,002 INFO  Errors found in the console on page load
+
+    &lt;b&gt;Valdiation Failed for URL:&lt;/b&gt; &lt;i&gt;&lt;u&gt;https://www.kraken.com/doesntexist&lt;/u&gt;&lt;/i&gt;
+     Console errors found on page loads. Errors Found as below,
+    1:: Log Type: SEVERE Log Message: https://www.kraken.com/404 - Failed to load resource: the server responded with a status of 404 ()
+
+  Then I validate for no console errors for the url-&quot;https://www.kraken.com/doesntexist&quot;         # stepDefinitions.StepDefs.i_validate_for_no_console_errors(java.lang.String)
+      java.lang.AssertionError: Verify console errors on page loads. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at stepDefinitions.StepDefs.i_validate_for_no_console_errors(StepDefs.java:171)
+	at âœ½.I validate for no console errors for the url-&quot;https://www.kraken.com/doesntexist&quot;(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:58)
+
+  When I close the &quot;chrome&quot; browser                                                              # stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)
+  Then the current browser should be closed                                                      # stepDefinitions.StepDefs.the_current_browser_should_be_closed()
+20 Jan 2021 18:00:38,910 INFO  Driver closed succesfully
+20 Jan 2021 18:00:38,910 INFO  Browser closed successfully in after method
+20 Jan 2021 18:00:38,910 INFO  -----------------End of Scenario-----------------
+</system-out>
+    <system-err>Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 22240
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1611165607.095][WARNING]: This version of ChromeDriver has not been tested with Chrome version 87.
+Jan 20, 2021 6:00:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="50.737"/>
+  <testcase classname="runner.TestNGRunner" name="runScenario" time="52.329"/>
+</testsuite>

@@ -1,0 +1,1725 @@
+[
+  {
+    "line": 26,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-20T17:57:40.640Z",
+        "before": [
+          {
+            "result": {
+              "duration": 222779200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Sanity check for the listed webpages",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;sanity-check-for-the-listed-webpages;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6517077200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1002000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14850560800,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter the url-\"https://www.kraken.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2188440800,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1001500,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the \"chrome\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9073000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify the page title as \"Bitcoin \u0026 Cryptocurrency Exchange | Bitcoin Trading Platform | Kraken\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bitcoin \u0026 Cryptocurrency Exchange | Bitcoin Trading Platform | Kraken\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5016904500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I wait for 5 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 385621100,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I close the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 701789600,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T17:58:10.616Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "Sanity check for the listed webpages",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;sanity-check-for-the-listed-webpages;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23788389900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to open \"firefox\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8052314100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter the url-\"https://www.kraken.com/prices\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/prices\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21000700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 998900,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the \"firefox\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7000500,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify the page title as \"Cryptocurrency Prices | Live Crypto Quotes | Kraken\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cryptocurrency Prices | Live Crypto Quotes | Kraken\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5043113300,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I wait for 5 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7890019800,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I close the \"firefox\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"firefox\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027CHNMCT279631L\u0027, ip: \u002710.110.70.213\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.7\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10944, moz:profile: C:\\Users\\ronald_p\\AppData\\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 927890f9-4911-4054-b04c-1bdad3ed9045\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)\r\n\tat stepDefinitions.StepDefs.the_current_browser_should_be_closed(StepDefs.java:190)\r\n\tat ✽.the current browser should be closed(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:39)\r\n",
+              "duration": 84474800,
+              "status": "failed"
+            },
+            "line": 39,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T17:58:55.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15630000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 45,
+        "name": "Sanity check for the listed webpages",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;sanity-check-for-the-listed-webpages;;4",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3477700300,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14852327200,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I enter the url-\"https://www.kraken.com/en-us/features/security/pgp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/en-us/features/security/pgp\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2168800700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "the \"chrome\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3101900,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I verify the page title as \"Kraken | Buy, Sell and Margin Trade Bitcoin (BTC) and Ethereum (ETH) - PGP Public Key\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kraken | Buy, Sell and Margin Trade Bitcoin (BTC) and Ethereum (ETH) - PGP Public Key\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5037003200,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I wait for 5 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169335400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I close the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 864798000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SanityTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T17:59:22.132Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 64,
+        "name": "Validation for no console errors on page loads",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;validation-for-no-console-errors-on-page-loads;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3487804700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I want to open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3104184400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I enter the url-\"https://www.kraken.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51006300,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should be redirected to the corressponding webpage",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_should_be_on_redirected_to_the_corressponding_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Failed to validate the page response code as 200"
+            ],
+            "result": {
+              "duration": 499568000,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I validate the response code from the page url \"https://www.kraken.com\" is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com\"",
+                  "offset": 47
+                },
+                {
+                  "val": "200",
+                  "offset": 75
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_the_response_code_from_the_page(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2241427600,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the \"chrome\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 59005000,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I verify the page title as \"Bitcoin \u0026 Cryptocurrency Exchange | Bitcoin Trading Platform | Kraken\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bitcoin \u0026 Cryptocurrency Exchange | Bitcoin Trading Platform | Kraken\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10041291400,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I wait for 10 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15629800,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I validate for no console errors for the url-\"https://www.kraken.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_for_no_console_errors(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138056700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I close the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 802745700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T17:59:42.582Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Validation for no console errors on page loads",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;validation-for-no-console-errors-on-page-loads;;3",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3611662900,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I want to open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4999791600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I enter the url-\"https://www.kraken.com/prices\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/prices\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15001500,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should be redirected to the corressponding webpage",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_should_be_on_redirected_to_the_corressponding_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Failed to validate the page response code as 200"
+            ],
+            "result": {
+              "duration": 150724200,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I validate the response code from the page url \"https://www.kraken.com/prices\" is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/prices\"",
+                  "offset": 47
+                },
+                {
+                  "val": "200",
+                  "offset": 82
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_the_response_code_from_the_page(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2218743000,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2002400,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the \"chrome\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28999800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I verify the page title as \"Cryptocurrency Prices | Live Crypto Quotes | Kraken\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cryptocurrency Prices | Live Crypto Quotes | Kraken\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10023299900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I wait for 10 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30963500,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I validate for no console errors for the url-\"https://www.kraken.com/prices\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/prices\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_for_no_console_errors(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138104600,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I close the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1520824300,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T18:00:05.340Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Validation for no console errors on page loads",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;validation-for-no-console-errors-on-page-loads;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2908798200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3823074500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I want to open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14438017600,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I enter the url-\"https://www.kraken.com/doesntexist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/doesntexist\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11024000,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should be redirected to the corressponding webpage",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_should_be_on_redirected_to_the_corressponding_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Failed to validate the page response code as 404"
+            ],
+            "result": {
+              "duration": 138294800,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I validate the response code from the page url \"https://www.kraken.com/doesntexist\" is 404",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/doesntexist\"",
+                  "offset": 47
+                },
+                {
+                  "val": "404",
+                  "offset": 87
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_the_response_code_from_the_page(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2191754500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the \"chrome\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15625700,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I verify the page title as \"�29,775.10 - Kraken - 404 - Page Not Found\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"�29,775.10 - Kraken - 404 - Page Not Found\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10027528900,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I wait for 10 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "\u003cb\u003eValdiation Failed for URL:\u003c/b\u003e \u003ci\u003e\u003cu\u003ehttps://www.kraken.com/doesntexist\u003c/u\u003e\u003c/i\u003e\n Console errors found on page loads. Errors Found as below,\n1:: Log Type: SEVERE Log Message: https://www.kraken.com/404 - Failed to load resource: the server responded with a status of 404 ()\n"
+            ],
+            "result": {
+              "error_message": "java.lang.AssertionError: Verify console errors on page loads. expected [false] but found [true]\r\n\tat org.testng.Assert.fail(Assert.java:97)\r\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\r\n\tat org.testng.Assert.assertEquals(Assert.java:118)\r\n\tat org.testng.Assert.assertEquals(Assert.java:751)\r\n\tat stepDefinitions.StepDefs.i_validate_for_no_console_errors(StepDefs.java:171)\r\n\tat ✽.I validate for no console errors for the url-\"https://www.kraken.com/doesntexist\"(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:58)\r\n",
+              "duration": 15622800,
+              "status": "failed"
+            },
+            "line": 58,
+            "name": "I validate for no console errors for the url-\"https://www.kraken.com/doesntexist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/doesntexist\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_for_no_console_errors(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "I close the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T18:00:38.926Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Validation for no console errors on page loads",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;validation-for-no-console-errors-on-page-loads;;5",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3507843500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I want to open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33692434700,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I enter the url-\"https://www.kraken.com/en-us/features/security/pgp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/en-us/features/security/pgp\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15021200,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I should be redirected to the corressponding webpage",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_should_be_on_redirected_to_the_corressponding_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "Failed to validate the page response code as 200"
+            ],
+            "result": {
+              "duration": 387380400,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I validate the response code from the page url \"https://www.kraken.com/en-us/features/security/pgp\" is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/en-us/features/security/pgp\"",
+                  "offset": 47
+                },
+                {
+                  "val": "200",
+                  "offset": 103
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_the_response_code_from_the_page(java.lang.String,java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2153872500,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "the \"chrome\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4247300,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I verify the page title as \"Kraken | Buy, Sell and Margin Trade Bitcoin (BTC) and Ethereum (ETH) - PGP Public Key\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kraken | Buy, Sell and Margin Trade Bitcoin (BTC) and Ethereum (ETH) - PGP Public Key\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10038778700,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I wait for 10 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15634300,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I validate for no console errors for the url-\"https://www.kraken.com/en-us/features/security/pgp\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com/en-us/features/security/pgp\"",
+                  "offset": 45
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_for_no_console_errors(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 146826400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I close the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 755352700,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-01-20T18:01:29.647Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.beforeMethod(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 86,
+        "name": "Scan for all links on the page go to another live (non 4xx) page",
+        "description": "",
+        "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site;scan-for-all-links-on-the-page-go-to-another-live-(non-4xx)-page;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.StepDefs.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3495915400,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I want to open \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_want_to_open_browser(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I want to scan the website",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_want_to_scan_the_website()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3374613700,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "I enter the url-\"https://www.kraken.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_enter_the_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11999000,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I should be redirected to the corressponding webpage",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_should_be_on_redirected_to_the_corressponding_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2180203400,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "I maximize the browser",
+            "match": {
+              "location": "stepDefinitions.StepDefs.i_maximize_the_browser()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "the \"chrome\" browser should be maximized",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 4
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.the_browser_should_be_maximized(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8900100,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I verify the page title as \"Bitcoin \u0026 Cryptocurrency Exchange | Bitcoin Trading Platform | Kraken\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bitcoin \u0026 Cryptocurrency Exchange | Bitcoin Trading Platform | Kraken\"",
+                  "offset": 27
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_verify_the_page_title_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10044226400,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I wait for 10 seconds to load the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_wait_for_seconds_to_load_the_page(java.lang.Long)"
+            },
+            "keyword": "And "
+          },
+          {
+            "output": [
+              "\u003ca href\u003dreports/pageLinks.html target\u003d\"_blank\"\u003eclick here for the list of links scanned \u0026 validated for response code\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 25770052700,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I validate all the links on the page-\"https://www.kraken.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_all_the_links_on_the_page(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "output": [
+              "\u003ca href\u003dreports/imageLinks.html target\u003d\"_blank\"\u003eclick here for the image scan \u0026 validation report\u003c/a\u003e",
+              "\u003ca href\u003dreports/pictureLinks.html target\u003d\"_blank\"\u003eclick here for the pictures scan \u0026 validation report\u003c/a\u003e"
+            ],
+            "result": {
+              "duration": 6570105100,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I validate all the images on the page-\"https://www.kraken.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.kraken.com\"",
+                  "offset": 38
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_validate_all_the_images_on_the_page(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168841900,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I close the \"chrome\" browser",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"chrome\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepDefinitions.StepDefs.i_close_the_browser(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 701958700,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "the current browser should be closed",
+            "match": {
+              "location": "stepDefinitions.StepDefs.the_current_browser_should_be_closed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Scan \u0026 Validate a given website for no console errors, response code \u0026 broken links by crawl over all the web pages of the site",
+    "description": "  I want to validate the below scenario on the site",
+    "id": "scan-\u0026-validate-a-given-website-for-no-console-errors--response-code-\u0026-broken-links-by-crawl-over-all-the-web-pages-of-the-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/crawlAwebpage.feature",
+    "tags": []
+  }
+]

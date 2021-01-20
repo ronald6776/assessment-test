@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jan 20 17:57:39 GMT 2021</td>
+</tr>
+<tr><td>Total time:</td><td>282 seconds (282603 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sanity check for the listed webpages", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CHNMCT279631L&apos;, ip: &apos;10.110.70.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10944, moz:profile: C:\Users\ronald_p\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 927890f9-4911-4054-b04c-1bdad3ed9045
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at stepDefinitions.StepDefs.the_current_browser_should_be_closed(StepDefs.java:190)
+	at ?.the current browser should be closed(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:39)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1735962278", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1735962278'><pre>org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;CHNMCT279631L&apos;, ip: &apos;10.110.70.213&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 84.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210105180113, moz:geckodriverVersion: 0.29.0, moz:headless: false, moz:processID: 10944, moz:profile: C:\Users\ronald_p\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 927890f9-4911-4054-b04c-1bdad3ed9045
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:452)
+	at stepDefinitions.StepDefs.the_current_browser_should_be_closed(StepDefs.java:190)
+	at ?.the current browser should be closed(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:39)
+</pre></div></td>
+<td>44</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation for no console errors on page loads", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td><div><pre>java.lang.AssertionError: Verify console errors on page loads. expected [false] but found [true]
+	at stepDefinitions.StepDefs.i_validate_for_no_console_errors(StepDefs.java:171)
+	at ?.I validate for no console errors for the url-&quot;https://www.kraken.com/doesntexist&quot;(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:58)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1488526679", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1488526679'><pre>java.lang.AssertionError: Verify console errors on page loads. expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at stepDefinitions.StepDefs.i_validate_for_no_console_errors(StepDefs.java:171)
+	at ?.I validate for no console errors for the url-&quot;https://www.kraken.com/doesntexist&quot;(file:///D:/MyWorkspace/HandsOn/assessment-test/src/test/resources/features/crawlAwebpage.feature:58)
+</pre></div></td>
+<td>33</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sanity check for the listed webpages", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td></td>
+<td>30</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sanity check for the listed webpages", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td></td>
+<td>26</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation for no console errors on page loads", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td></td>
+<td>20</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation for no console errors on page loads", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td></td>
+<td>22</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation for no console errors on page loads", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td></td>
+<td>50</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+<tr>
+<td title='runner.TestNGRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestNGRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scan for all links on the page go to another live (non 4xx) page", "Optional[Scan & Validate a given website for no console errors, response code & broken links by crawl over all the web pages of the site]"</td>
+<td></td>
+<td>52</td>
+<td>runner.TestNGRunner@4d9e68d0</td></tr>
+</table><p>
+</body>
+</html>

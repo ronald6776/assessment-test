@@ -1,0 +1,4 @@
+{
+"pictureSources":"//*/picture/source[1]",
+"pageWelcomeMessage":"(//*/h1/span/strong)[1]"		
+}

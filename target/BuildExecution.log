@@ -1,0 +1,408 @@
+20 Jan 2021 17:57:40,878 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 17:57:47,410 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 17:57:47,410 INFO  Brower opened successfully on local. Brower Name:chrome
+20 Jan 2021 17:57:47,412 INFO  The browser opened successfully
+20 Jan 2021 17:58:04,455 INFO  The browser maximized succesfully
+20 Jan 2021 17:58:04,465 INFO  Page title verified succesfully
+20 Jan 2021 17:58:09,883 INFO  Browser closed succesfully
+20 Jan 2021 17:58:10,585 INFO  Browser closed successfully in after method
+20 Jan 2021 17:58:10,585 INFO  -----------------End of Scenario-----------------
+20 Jan 2021 17:58:10,616 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 17:58:34,404 INFO  Brower opened successfully on local. Brower Name:firefox
+20 Jan 2021 17:58:34,404 INFO  The browser opened successfully
+20 Jan 2021 17:58:42,483 INFO  The browser maximized succesfully
+20 Jan 2021 17:58:42,491 INFO  Page title verified succesfully
+20 Jan 2021 17:58:55,426 INFO  Browser closed succesfully
+20 Jan 2021 17:58:55,510 INFO  Browser closed successfully in after method
+20 Jan 2021 17:58:55,510 INFO  -----------------End of Scenario-----------------
+20 Jan 2021 17:58:55,526 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 17:58:59,019 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 17:58:59,019 INFO  Brower opened successfully on local. Brower Name:chrome
+20 Jan 2021 17:58:59,019 INFO  The browser opened successfully
+20 Jan 2021 17:59:16,041 INFO  The browser maximized succesfully
+20 Jan 2021 17:59:16,045 INFO  Page title verified succesfully
+20 Jan 2021 17:59:21,252 INFO  Browser closed succesfully
+20 Jan 2021 17:59:22,116 INFO  Browser closed successfully in after method
+20 Jan 2021 17:59:22,116 INFO  -----------------End of Scenario-----------------
+20 Jan 2021 17:59:22,138 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 17:59:25,626 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 17:59:25,626 INFO  Brower opened successfully on local. Brower Name:chrome
+20 Jan 2021 17:59:25,626 INFO  The browser opened successfully
+20 Jan 2021 17:59:28,781 INFO  User is succesfully redirected to the webpage with the url: https://www.kraken.com/
+20 Jan 2021 17:59:29,266 INFO  HTTP Status Code of url-https://www.kraken.com is 503
+20 Jan 2021 17:59:29,266 INFO  Failed to validate the page response code as 200
+20 Jan 2021 17:59:31,523 INFO  The browser maximized succesfully
+20 Jan 2021 17:59:31,583 INFO  Page title verified succesfully
+20 Jan 2021 17:59:41,641 INFO  Total console log entries found: 0
+20 Jan 2021 17:59:41,641 INFO  Total Errors found in console: 0
+20 Jan 2021 17:59:41,641 INFO  No console Errors found
+20 Jan 2021 17:59:41,779 INFO  Browser closed succesfully
+20 Jan 2021 17:59:42,582 INFO  Browser closed successfully in after method
+20 Jan 2021 17:59:42,582 INFO  -----------------End of Scenario-----------------
+20 Jan 2021 17:59:42,582 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 17:59:46,209 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 17:59:46,209 INFO  Brower opened successfully on local. Brower Name:chrome
+20 Jan 2021 17:59:46,209 INFO  The browser opened successfully
+20 Jan 2021 17:59:51,224 INFO  User is succesfully redirected to the webpage with the url: https://www.kraken.com/prices?quote=EUR
+20 Jan 2021 17:59:51,376 INFO  HTTP Status Code of url-https://www.kraken.com/prices is 503
+20 Jan 2021 17:59:51,376 INFO  Failed to validate the page response code as 200
+20 Jan 2021 17:59:53,595 INFO  The browser maximized succesfully
+20 Jan 2021 17:59:53,625 INFO  Page title verified succesfully
+20 Jan 2021 18:00:03,681 INFO  Total console log entries found: 0
+20 Jan 2021 18:00:03,681 INFO  Total Errors found in console: 0
+20 Jan 2021 18:00:03,681 INFO  No console Errors found
+20 Jan 2021 18:00:03,819 INFO  Browser closed succesfully
+20 Jan 2021 18:00:05,340 INFO  Browser closed successfully in after method
+20 Jan 2021 18:00:05,340 INFO  -----------------End of Scenario-----------------
+20 Jan 2021 18:00:05,340 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 18:00:09,163 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 18:00:09,163 INFO  Brower opened successfully on local. Brower Name:chrome
+20 Jan 2021 18:00:09,163 INFO  The browser opened successfully
+20 Jan 2021 18:00:23,612 INFO  User is succesfully redirected to the webpage with the url: https://www.kraken.com/404
+20 Jan 2021 18:00:23,751 INFO  HTTP Status Code of url-https://www.kraken.com/doesntexist is 503
+20 Jan 2021 18:00:23,751 INFO  Failed to validate the page response code as 404
+20 Jan 2021 18:00:25,943 INFO  The browser maximized succesfully
+20 Jan 2021 18:00:36,002 INFO  Total console log entries found: 1
+20 Jan 2021 18:00:36,002 INFO  Log Type: SEVERE Log Message: https://www.kraken.com/404 - Failed to load resource: the server responded with a status of 404 ()
+20 Jan 2021 18:00:36,002 INFO  Total Errors found in console: 1
+20 Jan 2021 18:00:36,002 INFO  Errors found in the console on page load
+20 Jan 2021 18:00:38,910 INFO  Driver closed succesfully
+20 Jan 2021 18:00:38,910 INFO  Browser closed successfully in after method
+20 Jan 2021 18:00:38,910 INFO  -----------------End of Scenario-----------------
+20 Jan 2021 18:00:38,926 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 18:00:42,434 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 18:00:42,434 INFO  Brower opened successfully on local. Brower Name:chrome
+20 Jan 2021 18:00:42,434 INFO  The browser opened successfully
+20 Jan 2021 18:01:16,141 INFO  User is succesfully redirected to the webpage with the url: https://www.kraken.com/en-us/features/security/pgp
+20 Jan 2021 18:01:16,528 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/security/pgp is 503
+20 Jan 2021 18:01:16,529 INFO  Failed to validate the page response code as 200
+20 Jan 2021 18:01:18,685 INFO  The browser maximized succesfully
+20 Jan 2021 18:01:18,691 INFO  Page title verified succesfully
+20 Jan 2021 18:01:28,745 INFO  Total console log entries found: 0
+20 Jan 2021 18:01:28,745 INFO  Total Errors found in console: 0
+20 Jan 2021 18:01:28,745 INFO  No console Errors found
+20 Jan 2021 18:01:28,892 INFO  Browser closed succesfully
+20 Jan 2021 18:01:29,647 INFO  Browser closed successfully in after method
+20 Jan 2021 18:01:29,647 INFO  -----------------End of Scenario-----------------
+20 Jan 2021 18:01:29,647 INFO  -----------------Start of Scenario-----------------
+20 Jan 2021 18:01:33,143 INFO  Chrome driver has been successfully created and chrome browser opened successfully
+20 Jan 2021 18:01:33,143 INFO  Brower opened successfully on local. Brower Name:chrome
+20 Jan 2021 18:01:33,143 INFO  The browser opened successfully
+20 Jan 2021 18:01:36,530 INFO  User is succesfully redirected to the webpage with the url: https://www.kraken.com/
+20 Jan 2021 18:01:38,712 INFO  The browser maximized succesfully
+20 Jan 2021 18:01:38,721 INFO  Page title verified succesfully
+20 Jan 2021 18:01:48,866 INFO  URL: https://www.kraken.com/en-us/
+20 Jan 2021 18:01:48,904 INFO  URL: https://www.kraken.com/en-us/features
+20 Jan 2021 18:01:48,946 INFO  URL: https://www.kraken.com/en-us/features/security
+20 Jan 2021 18:01:48,977 INFO  URL: https://www.kraken.com/en-us/features/fee-schedule
+20 Jan 2021 18:01:49,015 INFO  URL: https://www.kraken.com/en-us/features/funding-options
+20 Jan 2021 18:01:49,030 INFO  URL: https://www.kraken.com/en-us/features/staking-coins
+20 Jan 2021 18:01:49,062 INFO  URL: https://www.kraken.com/en-us/features/24-7-support
+20 Jan 2021 18:01:49,093 INFO  URL: https://www.kraken.com/en-us/features/liquidity
+20 Jan 2021 18:01:49,132 INFO  URL: https://www.kraken.com/en-us/features/margin-trading
+20 Jan 2021 18:01:49,179 INFO  URL: https://www.kraken.com/en-us/features/indices
+20 Jan 2021 18:01:49,194 INFO  URL: https://www.kraken.com/en-us/features/futures
+20 Jan 2021 18:01:49,232 INFO  URL: https://www.kraken.com/en-us/features/otc-exchange
+20 Jan 2021 18:01:49,263 INFO  URL: https://www.kraken.com/en-us/features/account-management
+20 Jan 2021 18:01:49,294 INFO  URL: https://www.kraken.com/en-us/cryptowatch
+20 Jan 2021 18:01:49,317 INFO  URL: https://www.kraken.com/prices
+20 Jan 2021 18:01:49,332 INFO  URL: https://www.kraken.com/en-us/learn
+20 Jan 2021 18:01:49,348 INFO  URL: https://www.kraken.com/en-us/learn/crypto-guides
+20 Jan 2021 18:01:49,379 INFO  URL: https://www.kraken.com/en-us/learn/videos
+20 Jan 2021 18:01:49,417 INFO  URL: https://www.kraken.com/en-us/learn/podcast
+20 Jan 2021 18:01:49,433 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us
+20 Jan 2021 18:01:49,464 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Ffutures.kraken.com
+20 Jan 2021 18:01:49,479 INFO  URL: https://www.kraken.com/en-us/institutions
+20 Jan 2021 18:01:49,495 INFO  URL: https://www.kraken.com/login
+20 Jan 2021 18:01:49,517 INFO  URL: https://www.kraken.com/signup
+20 Jan 2021 18:01:49,533 INFO  URL: https://www.kraken.com/sign-up
+20 Jan 2021 18:01:49,550 INFO  URL: https://www.kraken.com/#route-beginner
+20 Jan 2021 18:01:49,582 INFO  URL: https://www.kraken.com/#route-intermediate
+20 Jan 2021 18:01:49,597 INFO  URL: https://www.kraken.com/#route-advanced
+20 Jan 2021 18:01:49,617 INFO  URL: https://www.kraken.com/en-us/institutions
+20 Jan 2021 18:01:49,633 INFO  URL: https://www.kraken.com/learn
+20 Jan 2021 18:01:49,649 INFO  URL: https://www.kraken.com/en-us/features
+20 Jan 2021 18:01:49,664 INFO  URL: https://www.kraken.com/en-us/features/security
+20 Jan 2021 18:01:49,680 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com
+20 Jan 2021 18:01:49,696 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us%2Fcategories%2F200187143-Kraken-Trading-Guide
+20 Jan 2021 18:01:49,718 INFO  URL: https://www.kraken.com/en-us/features/futures
+20 Jan 2021 18:01:49,733 INFO  URL: https://www.kraken.com/en-us/features/fee-schedule
+20 Jan 2021 18:01:49,749 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com
+20 Jan 2021 18:01:49,765 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com%2F
+20 Jan 2021 18:01:49,796 INFO  URL: https://www.kraken.com/en-us/features/liquidity
+20 Jan 2021 18:01:49,818 INFO  URL: https://www.kraken.com/en-us/features
+20 Jan 2021 18:01:49,834 INFO  URL: https://www.kraken.com/en-us/cryptowatch
+20 Jan 2021 18:01:49,849 INFO  URL: https://www.kraken.com/en-us/why-kraken
+20 Jan 2021 18:01:49,865 INFO  URL: https://www.kraken.com/en-us/features/fee-schedule
+20 Jan 2021 18:01:49,881 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com%2Fmarkets
+20 Jan 2021 18:01:49,896 INFO  URL: https://www.kraken.com/sign-up
+20 Jan 2021 18:01:49,918 INFO  URL: https://www.kraken.com/sign-up
+20 Jan 2021 18:01:49,934 INFO  URL: https://www.kraken.com/sign-in
+20 Jan 2021 18:01:49,965 INFO  URL: https://www.kraken.com/en-us/features/24-7-support
+20 Jan 2021 18:01:49,981 INFO  URL: https://www.kraken.com/en-us/features/account-management
+20 Jan 2021 18:01:49,996 INFO  URL: https://www.kraken.com/features/api
+20 Jan 2021 18:01:50,019 INFO  URL: https://www.kraken.com/en-us/features/security/bug-bounty
+20 Jan 2021 18:01:50,034 INFO  URL: https://www.kraken.com/en-us/features/fee-schedule
+20 Jan 2021 18:01:50,050 INFO  URL: https://www.kraken.com/en-us/features/funding-options
+20 Jan 2021 18:01:50,065 INFO  URL: https://www.kraken.com/en-us/features/futures
+20 Jan 2021 18:01:50,081 INFO  URL: https://www.kraken.com/en-us/features/indices
+20 Jan 2021 18:01:50,097 INFO  URL: https://www.kraken.com/en-us/features/liquidity
+20 Jan 2021 18:01:50,119 INFO  URL: https://www.kraken.com/en-us/features/margin-trading
+20 Jan 2021 18:01:50,135 INFO  URL: https://www.kraken.com/en-us/features/otc-exchange
+20 Jan 2021 18:01:50,166 INFO  URL: https://www.kraken.com/en-us/features/security/pgp
+20 Jan 2021 18:01:50,182 INFO  URL: https://www.kraken.com/en-us/proof-of-reserves-audit
+20 Jan 2021 18:01:50,197 INFO  URL: https://www.kraken.com/en-us/features/security
+20 Jan 2021 18:01:50,219 INFO  URL: https://www.kraken.com/en-us/features/staking-coins
+20 Jan 2021 18:01:50,235 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us
+20 Jan 2021 18:01:50,250 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fdocs.kraken.com%2Fwebsockets%2F
+20 Jan 2021 18:01:50,282 INFO  URL: https://www.kraken.com/en-us/cryptowatch
+20 Jan 2021 18:01:50,320 INFO  URL: https://www.kraken.com/prices
+20 Jan 2021 18:01:50,335 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fblog.kraken.com%2F
+20 Jan 2021 18:01:50,351 INFO  URL: https://www.kraken.com/en-us/learn/crypto-guides
+20 Jan 2021 18:01:50,366 INFO  URL: https://www.kraken.com/en-us/learn/videos
+20 Jan 2021 18:01:50,382 INFO  URL: https://www.kraken.com/en-us/learn/podcast
+20 Jan 2021 18:01:50,398 INFO  URL: https://www.kraken.com/en-us/learn/buy-bitcoin-btc
+20 Jan 2021 18:01:50,420 INFO  URL: https://www.kraken.com/en-us/learn/buy-ripple-xrp
+20 Jan 2021 18:01:50,436 INFO  URL: https://www.kraken.com/en-us/learn/buy-ethereum-eth
+20 Jan 2021 18:01:50,451 INFO  URL: https://www.kraken.com/en-us/learn/buy-bitcoin-cash-bch
+20 Jan 2021 18:01:50,467 INFO  URL: https://www.kraken.com/en-us/learn/buy-litecoin-ltc
+20 Jan 2021 18:01:50,482 INFO  URL: https://www.kraken.com/en-us/why-kraken
+20 Jan 2021 18:01:50,498 INFO  URL: https://www.kraken.com/en-us/features/cryptocurrency-apps
+20 Jan 2021 18:01:50,522 INFO  URL: https://www.kraken.com/en-us/institutions
+20 Jan 2021 18:01:50,540 INFO  URL: https://www.kraken.com/en-us/careers
+20 Jan 2021 18:01:50,573 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us%2Frequests%2Fnew
+20 Jan 2021 18:01:50,601 INFO  URL: https://www.kraken.com/en-us/press
+20 Jan 2021 18:01:50,611 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fblog.kraken.com%2Fpost%2F3112%2Fkraken-affiliate-program-revenue-share%2F
+20 Jan 2021 18:01:50,627 INFO  URL: https://www.kraken.com/en-us/features/grants
+20 Jan 2021 18:01:50,642 INFO  URL: https://www.kraken.com/
+20 Jan 2021 18:01:50,658 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fwww.facebook.com%2FKrakenFX%2F
+20 Jan 2021 18:01:50,673 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Ftwitter.com%2Fkrakenfx
+20 Jan 2021 18:01:50,689 INFO  URL: https://www.kraken.com/redirect?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fkrakenfx%2F
+20 Jan 2021 18:01:50,711 INFO  URL: https://www.kraken.com/en-us/legal/privacy
+20 Jan 2021 18:01:50,727 INFO  URL: https://www.kraken.com/en-us/legal
+20 Jan 2021 18:01:50,742 INFO  URL: https://www.kraken.com/en-us/legal/cookies
+20 Jan 2021 18:01:50,761 INFO  URL: https://www.kraken.com/en-us/legal/recruitment/eu-uk
+20 Jan 2021 18:01:50,776 INFO  URL: https://www.kraken.com/en-us/legal/recruitment/sg
+20 Jan 2021 18:01:50,792 INFO  URL: https://www.kraken.com/en-us/legal/disclosures
+20 Jan 2021 18:01:50,811 INFO  URL: https://www.kraken.com/legal/privacy/
+20 Jan 2021 18:01:50,811 INFO  Links of the page:[https://www.kraken.com/redirect?url=https%3A%2F%2Fdocs.kraken.com%2Fwebsockets%2F, https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com, https://www.kraken.com/en-us/features/margin-trading, https://www.kraken.com/sign-up, https://www.kraken.com/#route-intermediate, https://www.kraken.com/redirect?url=https%3A%2F%2Fblog.kraken.com%2F, https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com%2Fmarkets, https://www.kraken.com/en-us/features/cryptocurrency-apps, https://www.kraken.com/, https://www.kraken.com/en-us/learn/podcast, https://www.kraken.com/sign-in, https://www.kraken.com/en-us/features/liquidity, https://www.kraken.com/en-us/learn, https://www.kraken.com/#route-beginner, https://www.kraken.com/en-us/learn/buy-bitcoin-btc, https://www.kraken.com/en-us/learn/crypto-guides, https://www.kraken.com/redirect?url=https%3A%2F%2Fblog.kraken.com%2Fpost%2F3112%2Fkraken-affiliate-program-revenue-share%2F, https://www.kraken.com/legal/privacy/, https://www.kraken.com/features/api, https://www.kraken.com/en-us/, https://www.kraken.com/en-us/features/security/bug-bounty, https://www.kraken.com/en-us/features/funding-options, https://www.kraken.com/en-us/legal, https://www.kraken.com/en-us/legal/privacy, https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com, https://www.kraken.com/en-us/why-kraken, https://www.kraken.com/en-us/legal/cookies, https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us%2Frequests%2Fnew, https://www.kraken.com/en-us/legal/recruitment/sg, https://www.kraken.com/en-us/cryptowatch, https://www.kraken.com/en-us/features/fee-schedule, https://www.kraken.com/en-us/features/staking-coins, https://www.kraken.com/en-us/features/futures, https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us%2Fcategories%2F200187143-Kraken-Trading-Guide, https://www.kraken.com/en-us/features/24-7-support, https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us, https://www.kraken.com/signup, https://www.kraken.com/en-us/features/security, https://www.kraken.com/redirect?url=https%3A%2F%2Ftwitter.com%2Fkrakenfx, https://www.kraken.com/redirect?url=https%3A%2F%2Ffutures.kraken.com, https://www.kraken.com/redirect?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fkrakenfx%2F, https://www.kraken.com/en-us/features/account-management, https://www.kraken.com/en-us/legal/recruitment/eu-uk, https://www.kraken.com/learn, https://www.kraken.com/en-us/features/grants, https://www.kraken.com/redirect?url=https%3A%2F%2Fwww.facebook.com%2FKrakenFX%2F, https://www.kraken.com/en-us/learn/buy-bitcoin-cash-bch, https://www.kraken.com/en-us/learn/buy-ripple-xrp, https://www.kraken.com/en-us/learn/buy-litecoin-ltc, https://www.kraken.com/en-us/press, https://www.kraken.com/en-us/features/security/pgp, https://www.kraken.com/prices, https://www.kraken.com/en-us/learn/buy-ethereum-eth, https://www.kraken.com/en-us/features/otc-exchange, https://www.kraken.com/#route-advanced, https://www.kraken.com/en-us/proof-of-reserves-audit, https://www.kraken.com/en-us/learn/videos, https://www.kraken.com/en-us/institutions, https://www.kraken.com/en-us/features, https://www.kraken.com/en-us/careers, https://www.kraken.com/en-us/legal/disclosures, https://www.kraken.com/login, https://www.kraken.com/en-us/features/indices, https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com%2F]
+20 Jan 2021 18:01:50,974 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fdocs.kraken.com%2Fwebsockets%2F is 503
+20 Jan 2021 18:01:51,143 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:51,375 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com is 503
+20 Jan 2021 18:01:51,546 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:51,713 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/margin-trading is 503
+20 Jan 2021 18:01:51,898 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:52,067 INFO  HTTP Status Code of url-https://www.kraken.com/sign-up is 503
+20 Jan 2021 18:01:52,246 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:52,431 INFO  HTTP Status Code of url-https://www.kraken.com/#route-intermediate is 503
+20 Jan 2021 18:01:52,616 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:52,932 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fblog.kraken.com%2F is 503
+20 Jan 2021 18:01:53,133 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:53,287 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com%2Fmarkets is 503
+20 Jan 2021 18:01:53,449 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:53,619 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/cryptocurrency-apps is 503
+20 Jan 2021 18:01:53,788 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:53,966 INFO  HTTP Status Code of url-https://www.kraken.com/ is 503
+20 Jan 2021 18:01:54,151 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:54,321 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/podcast is 503
+20 Jan 2021 18:01:54,490 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:54,653 INFO  HTTP Status Code of url-https://www.kraken.com/sign-in is 503
+20 Jan 2021 18:01:54,806 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:54,976 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/liquidity is 503
+20 Jan 2021 18:01:55,107 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:55,277 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn is 503
+20 Jan 2021 18:01:55,439 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:55,622 INFO  HTTP Status Code of url-https://www.kraken.com/#route-beginner is 503
+20 Jan 2021 18:01:55,794 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:55,979 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/buy-bitcoin-btc is 503
+20 Jan 2021 18:01:56,133 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:56,311 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/crypto-guides is 503
+20 Jan 2021 18:01:56,512 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:56,712 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fblog.kraken.com%2Fpost%2F3112%2Fkraken-affiliate-program-revenue-share%2F is 503
+20 Jan 2021 18:01:56,866 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:57,035 INFO  HTTP Status Code of url-https://www.kraken.com/legal/privacy/ is 503
+20 Jan 2021 18:01:57,214 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:57,410 INFO  HTTP Status Code of url-https://www.kraken.com/features/api is 503
+20 Jan 2021 18:01:57,575 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:57,756 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/ is 503
+20 Jan 2021 18:01:57,958 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:58,105 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/security/bug-bounty is 503
+20 Jan 2021 18:01:58,321 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:58,607 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/funding-options is 503
+20 Jan 2021 18:01:58,760 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:58,961 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/legal is 503
+20 Jan 2021 18:01:59,224 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:59,394 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/legal/privacy is 503
+20 Jan 2021 18:01:59,563 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:01:59,757 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com is 503
+20 Jan 2021 18:01:59,895 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:00,058 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/why-kraken is 503
+20 Jan 2021 18:02:00,212 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:00,343 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/legal/cookies is 503
+20 Jan 2021 18:02:00,528 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:00,682 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us%2Frequests%2Fnew is 503
+20 Jan 2021 18:02:00,814 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:00,967 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/legal/recruitment/sg is 503
+20 Jan 2021 18:02:01,115 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:01,284 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/cryptowatch is 503
+20 Jan 2021 18:02:01,446 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:01,600 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/fee-schedule is 503
+20 Jan 2021 18:02:01,747 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:01,886 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/staking-coins is 503
+20 Jan 2021 18:02:02,071 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:02,249 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/futures is 503
+20 Jan 2021 18:02:02,434 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:02,588 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us%2Fcategories%2F200187143-Kraken-Trading-Guide is 503
+20 Jan 2021 18:02:02,753 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:02,888 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/24-7-support is 503
+20 Jan 2021 18:02:03,089 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:03,274 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fsupport.kraken.com%2Fhc%2Fen-us is 503
+20 Jan 2021 18:02:03,474 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:03,638 INFO  HTTP Status Code of url-https://www.kraken.com/signup is 503
+20 Jan 2021 18:02:03,791 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:03,954 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/security is 503
+20 Jan 2021 18:02:04,092 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:04,270 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Ftwitter.com%2Fkrakenfx is 503
+20 Jan 2021 18:02:04,439 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:04,592 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Ffutures.kraken.com is 503
+20 Jan 2021 18:02:04,758 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:05,142 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fkrakenfx%2F is 503
+20 Jan 2021 18:02:05,372 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:05,680 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/account-management is 503
+20 Jan 2021 18:02:05,874 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:06,028 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/legal/recruitment/eu-uk is 503
+20 Jan 2021 18:02:06,229 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:06,445 INFO  HTTP Status Code of url-https://www.kraken.com/learn is 503
+20 Jan 2021 18:02:06,599 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:06,815 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/grants is 503
+20 Jan 2021 18:02:07,100 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:07,300 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Fwww.facebook.com%2FKrakenFX%2F is 503
+20 Jan 2021 18:02:07,501 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:07,686 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/buy-bitcoin-cash-bch is 503
+20 Jan 2021 18:02:07,865 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:08,018 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/buy-ripple-xrp is 503
+20 Jan 2021 18:02:08,235 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:08,451 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/buy-litecoin-ltc is 503
+20 Jan 2021 18:02:08,667 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:08,937 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/press is 503
+20 Jan 2021 18:02:09,106 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:09,291 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/security/pgp is 503
+20 Jan 2021 18:02:09,454 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:09,654 INFO  HTTP Status Code of url-https://www.kraken.com/prices is 503
+20 Jan 2021 18:02:09,839 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:10,124 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/buy-ethereum-eth is 503
+20 Jan 2021 18:02:10,309 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:10,541 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/otc-exchange is 503
+20 Jan 2021 18:02:10,710 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:10,857 INFO  HTTP Status Code of url-https://www.kraken.com/#route-advanced is 503
+20 Jan 2021 18:02:11,042 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:11,296 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/proof-of-reserves-audit is 503
+20 Jan 2021 18:02:11,513 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:11,675 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/learn/videos is 503
+20 Jan 2021 18:02:11,946 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:12,177 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/institutions is 503
+20 Jan 2021 18:02:12,331 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:12,532 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features is 503
+20 Jan 2021 18:02:12,879 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:13,064 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/careers is 503
+20 Jan 2021 18:02:13,218 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:13,365 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/legal/disclosures is 503
+20 Jan 2021 18:02:13,566 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:13,704 INFO  HTTP Status Code of url-https://www.kraken.com/login is 503
+20 Jan 2021 18:02:13,851 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:14,020 INFO  HTTP Status Code of url-https://www.kraken.com/en-us/features/indices is 503
+20 Jan 2021 18:02:14,218 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:14,381 INFO  HTTP Status Code of url-https://www.kraken.com/redirect?url=https%3A%2F%2Ftrade.kraken.com%2F is 503
+20 Jan 2021 18:02:14,519 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:14,566 INFO  Total number of Images on the Page are 14
+20 Jan 2021 18:02:14,598 INFO  URL of Image 1 is: null
+20 Jan 2021 18:02:14,635 INFO  Image Displayed
+20 Jan 2021 18:02:14,651 INFO  URL of Image 2 is: null
+20 Jan 2021 18:02:14,682 ERROR Image Display - Broken
+20 Jan 2021 18:02:14,698 INFO  URL of Image 3 is: null
+20 Jan 2021 18:02:14,736 ERROR Image Display - Broken
+20 Jan 2021 18:02:14,754 INFO  URL of Image 4 is: null
+20 Jan 2021 18:02:14,785 ERROR Image Display - Broken
+20 Jan 2021 18:02:14,801 INFO  URL of Image 5 is: null
+20 Jan 2021 18:02:14,836 ERROR Image Display - Broken
+20 Jan 2021 18:02:14,867 INFO  URL of Image 6 is: null
+20 Jan 2021 18:02:14,920 ERROR Image Display - Broken
+20 Jan 2021 18:02:14,936 INFO  URL of Image 7 is: null
+20 Jan 2021 18:02:14,967 ERROR Image Display - Broken
+20 Jan 2021 18:02:14,998 INFO  URL of Image 8 is: null
+20 Jan 2021 18:02:15,037 ERROR Image Display - Broken
+20 Jan 2021 18:02:15,053 INFO  URL of Image 9 is: null
+20 Jan 2021 18:02:15,084 ERROR Image Display - Broken
+20 Jan 2021 18:02:15,100 INFO  URL of Image 10 is: null
+20 Jan 2021 18:02:15,137 ERROR Image Display - Broken
+20 Jan 2021 18:02:15,153 INFO  URL of Image 11 is: null
+20 Jan 2021 18:02:15,184 ERROR Image Display - Broken
+20 Jan 2021 18:02:15,200 INFO  URL of Image 12 is: null
+20 Jan 2021 18:02:15,238 ERROR Image Display - Broken
+20 Jan 2021 18:02:15,253 INFO  URL of Image 13 is: null
+20 Jan 2021 18:02:15,285 ERROR Image Display - Broken
+20 Jan 2021 18:02:15,300 INFO  URL of Image 14 is: https://bat.bing.com/action/0?ti=26040223&Ver=2&mid=01699036-862f-4807-8fd9-6537a33f079b&sid=88d081305b4911eb8e7045bee2d579fd&vid=88d0c4f05b4911eb972b03975daf49b8&vids=1&pi=1200101525&lg=en-US&sw=1366&sh=768&sc=24&tl=Bitcoin%20%26%20Cryptocurrency%20Exchange%20%7C%20Bitcoin%20Trading%20Platform%20%7C%20Kraken&p=https%3A%2F%2Fwww.kraken.com%2F&r=&lt=732&evt=pageLoad&msclkid=N&sv=1&rn=950907
+20 Jan 2021 18:02:15,955 INFO  HTTP Status Code of url-https://bat.bing.com/action/0?ti=26040223&Ver=2&mid=01699036-862f-4807-8fd9-6537a33f079b&sid=88d081305b4911eb8e7045bee2d579fd&vid=88d0c4f05b4911eb972b03975daf49b8&vids=1&pi=1200101525&lg=en-US&sw=1366&sh=768&sc=24&tl=Bitcoin%20%26%20Cryptocurrency%20Exchange%20%7C%20Bitcoin%20Trading%20Platform%20%7C%20Kraken&p=https%3A%2F%2Fwww.kraken.com%2F&r=&lt=732&evt=pageLoad&msclkid=N&sv=1&rn=950907 is 204
+20 Jan 2021 18:02:16,018 INFO  HTTP STATUS - No Content
+20 Jan 2021 18:02:16,040 ERROR Image Display - Broken
+20 Jan 2021 18:02:16,087 INFO  Total number of pictures on the Page are 13
+20 Jan 2021 18:02:16,087 INFO  Entry getPageObjects method
+20 Jan 2021 18:02:16,087 INFO  Entry JsonUtils.parseJsonToMap method
+20 Jan 2021 18:02:16,103 INFO  Exit JsonUtils.parseJsonToMap method
+20 Jan 2021 18:02:16,103 INFO  Identifier for the page element is: //*/picture/source[1]
+20 Jan 2021 18:02:16,103 INFO  Exit getPageObjects method
+20 Jan 2021 18:02:16,140 INFO  URL of Image 1 is: https://www.kraken.com/_assets/files/2019-02/kraken_desktop_hero/400.webp
+20 Jan 2021 18:02:16,288 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-02/kraken_desktop_hero/400.webp is 503
+20 Jan 2021 18:02:16,519 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:16,557 ERROR Image Display - Broken
+20 Jan 2021 18:02:16,573 INFO  URL of Image 2 is: https://www.kraken.com/_assets/files/2019-01/kraken_body01_final_01/400.webp
+20 Jan 2021 18:02:16,742 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-01/kraken_body01_final_01/400.webp is 503
+20 Jan 2021 18:02:16,905 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:16,927 ERROR Image Display - Broken
+20 Jan 2021 18:02:16,958 INFO  URL of Image 3 is: https://www.kraken.com/_assets/files/2019-01/kraken_body02_final_02/400.webp
+20 Jan 2021 18:02:17,128 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-01/kraken_body02_final_02/400.webp is 503
+20 Jan 2021 18:02:17,275 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:17,290 ERROR Image Display - Broken
+20 Jan 2021 18:02:17,306 INFO  URL of Image 4 is: https://www.kraken.com/_assets/files/2019-01/kraken_body03_final_01/400.webp
+20 Jan 2021 18:02:17,460 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-01/kraken_body03_final_01/400.webp is 503
+20 Jan 2021 18:02:17,607 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:17,631 ERROR Image Display - Broken
+20 Jan 2021 18:02:17,650 INFO  URL of Image 5 is: https://www.kraken.com/_assets/files/2019-06/intermediate4/400.webp
+20 Jan 2021 18:02:17,801 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-06/intermediate4/400.webp is 503
+20 Jan 2021 18:02:18,118 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:18,133 ERROR Image Display - Broken
+20 Jan 2021 18:02:18,165 INFO  URL of Image 6 is: https://www.kraken.com/_assets/files/2019-04/intermediate1/400.webp
+20 Jan 2021 18:02:18,318 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-04/intermediate1/400.webp is 503
+20 Jan 2021 18:02:18,481 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:18,503 ERROR Image Display - Broken
+20 Jan 2021 18:02:18,519 INFO  URL of Image 7 is: https://www.kraken.com/_assets/files/2019-04/intermediate2/400.webp
+20 Jan 2021 18:02:18,698 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-04/intermediate2/400.webp is 503
+20 Jan 2021 18:02:18,866 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:18,882 ERROR Image Display - Broken
+20 Jan 2021 18:02:18,904 INFO  URL of Image 8 is: https://www.kraken.com/_assets/files/2019-04/intermediate3/400.webp
+20 Jan 2021 18:02:19,051 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-04/intermediate3/400.webp is 503
+20 Jan 2021 18:02:19,221 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:19,237 ERROR Image Display - Broken
+20 Jan 2021 18:02:19,252 INFO  URL of Image 9 is: https://www.kraken.com/_assets/files/2019-06/kraken_body04_final_02/400.webp
+20 Jan 2021 18:02:19,406 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-06/kraken_body04_final_02/400.webp is 503
+20 Jan 2021 18:02:19,553 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:19,569 ERROR Image Display - Broken
+20 Jan 2021 18:02:19,585 INFO  URL of Image 10 is: https://www.kraken.com/_assets/files/2019-04/advanced1/400.webp
+20 Jan 2021 18:02:19,723 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-04/advanced1/400.webp is 503
+20 Jan 2021 18:02:19,902 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:19,923 ERROR Image Display - Broken
+20 Jan 2021 18:02:19,939 INFO  URL of Image 11 is: https://www.kraken.com/_assets/files/2019-04/advanced2/400.webp
+20 Jan 2021 18:02:20,102 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-04/advanced2/400.webp is 503
+20 Jan 2021 18:02:20,240 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:20,272 ERROR Image Display - Broken
+20 Jan 2021 18:02:20,309 INFO  URL of Image 12 is: https://www.kraken.com/_assets/files/2019-04/advanced3/400.webp
+20 Jan 2021 18:02:20,457 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-04/advanced3/400.webp is 503
+20 Jan 2021 18:02:20,642 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:20,657 ERROR Image Display - Broken
+20 Jan 2021 18:02:20,673 INFO  URL of Image 13 is: https://www.kraken.com/_assets/files/2019-04/advanced4/400.webp
+20 Jan 2021 18:02:20,826 INFO  HTTP Status Code of url-https://www.kraken.com/_assets/files/2019-04/advanced4/400.webp is 503
+20 Jan 2021 18:02:21,011 ERROR HTTP STATUS - Service Temporarily Unavailableis a broken link
+20 Jan 2021 18:02:21,027 ERROR Image Display - Broken
+20 Jan 2021 18:02:21,274 INFO  Browser closed succesfully
+20 Jan 2021 18:02:21,976 INFO  Browser closed successfully in after method
+20 Jan 2021 18:02:21,976 INFO  -----------------End of Scenario-----------------
