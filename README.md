@@ -1,4 +1,4 @@
-# assessment-test (Dockerized Selenium-java-Cucumber-BDD Tests for ease of distribution)
+# Assessment-test (Dockerized Selenium-java-Cucumber-BDD Tests for ease of distribution)
 Assessment test framework to scan a web page to validate on the below
 - There are no console errors on page loads
 - The response code from the page (200, 302, 404, etc.)
