@@ -21,11 +21,11 @@ To clean the environment
 
     docker-compose down
 
-Network
+## Network
 
 The networks configured in the docker-compose.yml file will establish the connectivity between the docker containers to communicate each other.
 
-Volume
+## Volume
 
     volumes:
 
@@ -34,7 +34,7 @@ Volume
 
 When the tests are executed with docker-compose, the report will be saved inside a container where they run. A volume(already configured in the docker-compose.yml) is needed to copy the reports outside the container(to the local machine).
 
-# Reports
+## Reports
 
 When the test execution completed the scan report will be available under./target/cucumberHtmlReports.
   - Open the html report file with the name-webPageScanReport.html
